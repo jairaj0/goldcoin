@@ -1,0 +1,32 @@
+:root{
+    --primary : #27262C;
+    --text: #D95F42;
+    --secondary: #ffffff;
+    --hover: #483f5abd;
+}
+
+.flex{
+    display: flex;
+    align-items: center;
+}
+
+.flex-center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.flex-between{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.column{
+    flex-direction: column;
+}
+
+
+
+
+

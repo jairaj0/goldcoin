@@ -1,0 +1,7 @@
+.left_opt{
+    height: calc(100vh - 180px);
+    background-color: var(--primary);
+    padding: 1rem 0 ;
+    position: fixed;
+    overflow-y: scroll;
+}

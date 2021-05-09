@@ -1,0 +1,53 @@
+.leftPrice{
+    width: 238px;
+    background-color: var(--primary);
+    height: 110px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    z-index: 2;
+
+    .leftPrice_first{
+        padding: 1rem;
+        color: var(--text);
+
+        .left_price{
+            font-size: 16px;
+            font-weight: 800;
+            cursor: pointer;
+
+        }
+
+        .social_links {
+            a{
+                color: var(--text);
+                font-size: 20px;
+            }
+
+            a:nth-child(2){
+                margin-left: 2rem;
+            }
+        }
+
+    }
+
+    .setting{
+        padding: 0 1rem;
+        .left_price_btn{
+            cursor: pointer;
+            font-size: 25px;
+            color: #636363;
+            padding: .5rem 1rem;
+            border-radius: 1rem;
+            background-color: var(--hover);
+
+           .slash{
+               margin: 0 .3rem;
+           }
+
+           .language{
+               margin-left: .5rem;
+           }
+        }
+    }
+}

@@ -1,0 +1,59 @@
+.leftPrice {
+  width: 238px;
+  background-color: var(--primary);
+  height: 110px;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  z-index: 2;
+}
+
+.leftPrice .leftPrice_first {
+  padding: 1rem;
+  color: var(--text);
+}
+
+.leftPrice .leftPrice_first .left_price {
+  font-size: 16px;
+  font-weight: 800;
+  cursor: pointer;
+}
+
+.leftPrice .leftPrice_first .left_price .price_logo {
+  width: 30px;
+  height: 30px;
+  background-image: url(../img/logo.png);
+  background-size: cover;
+  background-color: red;
+}
+
+.leftPrice .leftPrice_first .social_links a {
+  color: var(--text);
+  font-size: 20px;
+}
+
+.leftPrice .leftPrice_first .social_links a:nth-child(2) {
+  margin-left: 2rem;
+}
+
+.leftPrice .setting {
+  padding: 0 1rem;
+}
+
+.leftPrice .setting .left_price_btn {
+  cursor: pointer;
+  font-size: 25px;
+  color: #636363;
+  padding: .5rem 1rem;
+  border-radius: 1rem;
+  background-color: var(--hover);
+}
+
+.leftPrice .setting .left_price_btn .slash {
+  margin: 0 .3rem;
+}
+
+.leftPrice .setting .left_price_btn .language {
+  margin-left: .5rem;
+}
+/*# sourceMappingURL=LeftPrice.css.map */
