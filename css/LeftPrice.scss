@@ -6,8 +6,31 @@
     bottom: 0;
     left: 0;
     z-index: 2;
+    border-top: 2px solid var(--hover);
+
+    .setting_icon{
+        width: 100%;
+        height: 100%;
+
+        .setting_btn{
+            cursor: pointer;
+            width: 50px;
+            height: 50px;
+            border-radius: 1.3rem;
+            color: var(--text);
+            font-size: 25px;
+            transition: all .3s ease-in-out;
+
+            &:hover{
+            background-color: var(--hover);
+            }
+        }
+    }
 
     .leftPrice_first{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
         padding: 1rem;
         color: var(--text);
 
@@ -15,7 +38,22 @@
             font-size: 16px;
             font-weight: 800;
             cursor: pointer;
+            transition: all 0.3s ease-in-out;
 
+            &:hover{
+                .price_logo{
+                    transform: scale(1.2);
+                }
+            }
+
+            .price_logo{
+                width: 30px;
+                height: 30px;
+                margin-right: 1rem;
+                background-image: url(../img/logo.png);
+                background-size: cover;
+                transform: scale(1);
+            }
         }
 
         .social_links {
@@ -32,14 +70,23 @@
     }
 
     .setting{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
         padding: 0 1rem;
         .left_price_btn{
+            width: 100px;
+            height: 40px;
+            justify-content: center;
             cursor: pointer;
             font-size: 25px;
             color: #636363;
-            padding: .5rem 1rem;
             border-radius: 1rem;
-            background-color: var(--hover);
+            transition: all .2s ease-in-out;
+            
+            &:hover{
+                background-color: var(--hover);
+            }
 
            .slash{
                margin: 0 .3rem;
@@ -47,6 +94,7 @@
 
            .language{
                margin-left: .5rem;
+               font-size: 20px;
            }
         }
     }

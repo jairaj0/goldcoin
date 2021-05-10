@@ -18,7 +18,7 @@ class Content extends Component{
             <MenuContext.Consumer>{(context) => {
                     const left_width = context.isMenu;
                  return(
-                <div style={{width: `${left_width ? '90px' : '238px'}` }} className="left_opt">
+                <div style={{width: `${left_width ? '90px' : '238px'}` , height: `${left_width ? 'calc(100vh - 140px)' : 'calc(100vh - 180px)'}` }} className="left_opt">
                 <Opt icon={<HiHome className="icon" />} title='Home' />
                 <Opt icon={<BsArrowLeftRight className="icon" />} title='Trade' />
                 <Opt icon={<HiOutlineSun className="icon" />} title='Farm' />
